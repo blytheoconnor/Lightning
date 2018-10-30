@@ -8,9 +8,9 @@ Description: Various colours of lightening fall down the screen while a box
              grows from bottom up until it covers the screen, then repeats.
 */
 
-int startX = 275;
+int startX = 500;
 int startY = 0;
-int endX = 275;
+int endX = 500;
 int endY = 0;
 int w = 1;
 int R = (int)(Math.random() * 53) + 205;      //red colour variable
@@ -68,9 +68,9 @@ void repeat() {
 
                                      //resets the program if the line covers the whole screen
 void reset() {
-  startX = 275;
+  startX = 500;
   startY = 0;
-  endX = 275;
+  endX = 500;
   endY = 0;
   w = 1;
   background(255);
