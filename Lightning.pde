@@ -19,7 +19,7 @@ int B = (int)(Math.random() * 53) + 205;      //blue colour variable
 
 
 void setup() {
-  size(550,400);
+  size(700,400);
   background(255);
   frameRate(100);
 }
@@ -52,7 +52,7 @@ void lightning() {
 void growingLine() {
     stroke(R,G,B);
     strokeWeight(w);
-    line(0, 400, 550, 400);
+    line(0, 400, 700, 400);
 }
 
                                       //repeats the lightning streak drawing process
