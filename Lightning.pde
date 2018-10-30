@@ -60,7 +60,7 @@ void repeat() {
   R = (int)(Math.random() * 120) + 205;
   G = (int)(Math.random() * 120) + 205;
   B = (int)(Math.random() * 120) + 205;
-  startX = (int)(Math.random() * 401);
+  startX = (int)(Math.random() * 701);
   startY = 0;
   endX = 275;
   endY = 0;
